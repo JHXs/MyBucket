@@ -11,14 +11,12 @@
         ]
     ],
     "pre_install": "ni $dir\\config",
-    "persist": [
-        "config"
-    ],
+    "persist": "config",
     "checkver": {
         "url": "https://www.natpierce.cn/pc/downloads/index_new.html",
-        "regex": "当前版本：v(\\d+\\.\\d+\\.\\d+)"
+        "regex": "natpierce-win-v([\\d\\.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://natpierce.oss-cn-beijing.aliyuncs.com/pc/natpierce-win-$version.zip"
+        "url": "https://natpierce.oss-cn-beijing.aliyuncs.com/pc/natpierce-win-v$version.zip"
     }
 }
