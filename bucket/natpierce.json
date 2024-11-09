@@ -18,6 +18,6 @@
         "regex": "natpierce-win-v([\\d\\.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://natpierce.oss-cn-beijing.aliyuncs.com/pc/natpierce-win-v$version.zip",
+        "url": "https://natpierce.oss-cn-beijing.aliyuncs.com/pc/natpierce-win-v$version.zip"
     }
 }
