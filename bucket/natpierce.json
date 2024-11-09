@@ -11,7 +11,7 @@
             "natpierce"
         ]
     ],
-    "pre_install": "ni $dir\\config",
+    "pre_install": "ni \"$dir\\config\"",
     "persist": "config",
     "checkver": {
         "url": "https://www.natpierce.cn/pc/downloads/index_new.html",
