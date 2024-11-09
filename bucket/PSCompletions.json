@@ -1,6 +1,7 @@
 {
     "version": "5.0.7",
     "description": "一个补全管理模块，更简单、更方便的使用 PowerShell 命令补全。A completion manager for better and simpler use PowerShell completions.",
+    "notes": "从https://github.com/abgox/abgo_bucket复制过来的",
     "homepage": "https://github.com/abgox/PSCompletions",
     "license": {
         "identifier": "MIT",
